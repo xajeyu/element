@@ -45,9 +45,9 @@
   </div>
 </template>
 <script>
-  import ElCollapseTransition from 'element-ui/src/transitions/collapse-transition';
-  import Emitter from 'element-ui/src/mixins/emitter';
-  import { generateId } from 'element-ui/src/utils/util';
+  import ElCollapseTransition from 'nokia-element/src/transitions/collapse-transition';
+  import Emitter from 'nokia-element/src/mixins/emitter';
+  import { generateId } from 'nokia-element/src/utils/util';
 
   export default {
     name: 'ElCollapseItem',

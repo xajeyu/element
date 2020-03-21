@@ -1,6 +1,6 @@
 import Vue from 'vue';
-import { hasClass, addClass, removeClass } from 'element-ui/src/utils/dom';
-import ElCheckbox from 'element-ui/packages/checkbox';
+import { hasClass, addClass, removeClass } from 'nokia-element/src/utils/dom';
+import ElCheckbox from 'nokia-element/packages/checkbox';
 import FilterPanel from './filter-panel.vue';
 import LayoutObserver from './layout-observer';
 import { mapStates } from './store/helper';
@@ -22,7 +22,7 @@ const convertToRows = (originColumns) => {
   let maxLevel = 1;
   const traverse = (column, parent) => {
     if (parent) {
-      column.level = parent.level + 1;
+      column.level = parent.level + parent.propRowSpan;
       if (maxLevel < column.level) {
         maxLevel = column.level;
       }
@@ -55,7 +55,7 @@ const convertToRows = (originColumns) => {
     if (!column.children) {
       column.rowSpan = maxLevel - column.level + 1;
     } else {
-      column.rowSpan = 1;
+      column.rowSpan = column.propRowSpan;
     }
     rows[column.level - 1].push(column);
   });

@@ -112,21 +112,21 @@
 </template>
 
 <script>
-import Popper from 'element-ui/src/utils/vue-popper';
-import Clickoutside from 'element-ui/src/utils/clickoutside';
-import Emitter from 'element-ui/src/mixins/emitter';
-import Locale from 'element-ui/src/mixins/locale';
-import Migrating from 'element-ui/src/mixins/migrating';
-import ElInput from 'element-ui/packages/input';
-import ElTag from 'element-ui/packages/tag';
-import ElScrollbar from 'element-ui/packages/scrollbar';
-import ElCascaderPanel from 'element-ui/packages/cascader-panel';
-import AriaUtils from 'element-ui/src/utils/aria-utils';
-import { t } from 'element-ui/src/locale';
-import { isEqual, isEmpty, kebabCase } from 'element-ui/src/utils/util';
-import { isUndefined, isFunction } from 'element-ui/src/utils/types';
-import { isDef } from 'element-ui/src/utils/shared';
-import { addResizeListener, removeResizeListener } from 'element-ui/src/utils/resize-event';
+import Popper from 'nokia-element/src/utils/vue-popper';
+import Clickoutside from 'nokia-element/src/utils/clickoutside';
+import Emitter from 'nokia-element/src/mixins/emitter';
+import Locale from 'nokia-element/src/mixins/locale';
+import Migrating from 'nokia-element/src/mixins/migrating';
+import ElInput from 'nokia-element/packages/input';
+import ElTag from 'nokia-element/packages/tag';
+import ElScrollbar from 'nokia-element/packages/scrollbar';
+import ElCascaderPanel from 'nokia-element/packages/cascader-panel';
+import AriaUtils from 'nokia-element/src/utils/aria-utils';
+import { t } from 'nokia-element/src/locale';
+import { isEqual, isEmpty, kebabCase } from 'nokia-element/src/utils/util';
+import { isUndefined, isFunction } from 'nokia-element/src/utils/types';
+import { isDef } from 'nokia-element/src/utils/shared';
+import { addResizeListener, removeResizeListener } from 'nokia-element/src/utils/resize-event';
 import debounce from 'throttle-debounce/debounce';
 
 const { keys: KeyCode } = AriaUtils;

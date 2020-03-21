@@ -87,11 +87,11 @@ export interface InstallationOptions {
   size: string
 }
 
-/** The version of element-ui */
+/** The version of nokia-element */
 export const version: string
 
 /**
- * Install all element-ui components into Vue.
+ * Install all nokia-element components into Vue.
  * Please do not invoke this method directly.
  * Call `Vue.use(ElementUI)` to install.
  */

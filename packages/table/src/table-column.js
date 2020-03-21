@@ -1,6 +1,6 @@
 import { cellStarts, cellForced, defaultRenderCell, treeCellPrefix } from './config';
 import { mergeOptions, parseWidth, parseMinWidth, compose } from './util';
-import ElCheckbox from 'element-ui/packages/checkbox';
+import ElCheckbox from 'nokia-element/packages/checkbox';
 
 let columnIdSeed = 1;
 
@@ -17,6 +17,10 @@ export default {
     labelClassName: String,
     property: String,
     prop: String,
+    rowSpan: {
+      type: Number,
+      default: 1
+    },
     width: {},
     minWidth: {},
     renderHeader: Function,
@@ -261,6 +265,7 @@ export default {
     const defaults = {
       ...cellStarts[type],
       id: this.columnId,
+      propRowSpan: this.rowSpan,
       type: type,
       property: this.prop || this.property,
       align: this.realAlign,

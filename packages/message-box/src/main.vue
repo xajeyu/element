@@ -79,13 +79,13 @@
 </template>
 
 <script type="text/babel">
-  import Popup from 'element-ui/src/utils/popup';
-  import Locale from 'element-ui/src/mixins/locale';
-  import ElInput from 'element-ui/packages/input';
-  import ElButton from 'element-ui/packages/button';
-  import { addClass, removeClass } from 'element-ui/src/utils/dom';
-  import { t } from 'element-ui/src/locale';
-  import Dialog from 'element-ui/src/utils/aria-dialog';
+  import Popup from 'nokia-element/src/utils/popup';
+  import Locale from 'nokia-element/src/mixins/locale';
+  import ElInput from 'nokia-element/packages/input';
+  import ElButton from 'nokia-element/packages/button';
+  import { addClass, removeClass } from 'nokia-element/src/utils/dom';
+  import { t } from 'nokia-element/src/locale';
+  import Dialog from 'nokia-element/src/utils/aria-dialog';
 
   let messageBox;
   let typeMap = {

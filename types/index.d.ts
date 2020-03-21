@@ -1,4 +1,4 @@
-export * from './element-ui'
+export * from './nokia-element'
 
-import * as ElementUI from './element-ui'
+import * as ElementUI from './nokia-element'
 export default ElementUI

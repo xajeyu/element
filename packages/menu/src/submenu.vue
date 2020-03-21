@@ -1,8 +1,8 @@
 <script>
-  import ElCollapseTransition from 'element-ui/src/transitions/collapse-transition';
+  import ElCollapseTransition from 'nokia-element/src/transitions/collapse-transition';
   import menuMixin from './menu-mixin';
-  import Emitter from 'element-ui/src/mixins/emitter';
-  import Popper from 'element-ui/src/utils/vue-popper';
+  import Emitter from 'nokia-element/src/mixins/emitter';
+  import Popper from 'nokia-element/src/utils/vue-popper';
 
   const poperMixins = {
     props: {

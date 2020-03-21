@@ -47,9 +47,9 @@
 </template>
 
 <script>
-import Popup from 'element-ui/src/utils/popup';
-import emitter from 'element-ui/src/mixins/emitter';
-import Utils from 'element-ui/src/utils/aria-utils';
+import Popup from 'nokia-element/src/utils/popup';
+import emitter from 'nokia-element/src/mixins/emitter';
+import Utils from 'nokia-element/src/utils/aria-utils';
 
 export default {
   name: 'ElDrawer',

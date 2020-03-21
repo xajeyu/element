@@ -52,10 +52,10 @@
 </template>
 
 <script>
-  import ElCheckboxGroup from 'element-ui/packages/checkbox-group';
-  import ElCheckbox from 'element-ui/packages/checkbox';
-  import ElInput from 'element-ui/packages/input';
-  import Locale from 'element-ui/src/mixins/locale';
+  import ElCheckboxGroup from 'nokia-element/packages/checkbox-group';
+  import ElCheckbox from 'nokia-element/packages/checkbox';
+  import ElInput from 'nokia-element/packages/input';
+  import Locale from 'nokia-element/src/mixins/locale';
 
   export default {
     mixins: [Locale],
